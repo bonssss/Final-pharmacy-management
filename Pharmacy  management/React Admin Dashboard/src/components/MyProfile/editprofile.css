@@ -1,0 +1,32 @@
+
+
+.change-profile-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 19999;
+}
+
+.my-profile-form {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Rest of your styles remain the same as provided in the previous response */
+  

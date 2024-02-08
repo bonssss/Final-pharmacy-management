@@ -1,0 +1,81 @@
+/* AddSalesForm.css */
+
+.addsales-maincontainer{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+  height: 100%;
+
+}
+.addsalesconatiner{
+  max-height: 100%; /* Set a maximum height for scrolling */
+  overflow-y: auto;
+}
+form {
+    /* max-width: 400px; */
+    width: 80%;
+    /* margin: 20px auto; */
+    padding: 20px;
+    /* background-color: #f4f4f4; */
+    /* border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  label {
+    /* display: block; */
+    margin: 10px 0 5px;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 30px;
+    background-color: #0fa2ec;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #0ff3ae;
+    color: black;
+  }
+  
+   /* managepurchase.css */
+.filter-dropdown {
+  margin-bottom: 20px;
+  text-align: right; /* Align the dropdown to the right */
+  margin-right: 30px;
+}
+
+.filter-dropdown label {
+  margin-right: 10px;
+}
+
+.filter-dropdown select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+}

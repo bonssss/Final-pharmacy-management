@@ -1,0 +1,48 @@
+/* SupplierDetails.css */
+.addsuppliercontainer{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+}
+.container {
+    /* max-width: 400px; */
+    margin: 0 auto;
+    padding: 20px;
+    max-height: 500px; /* Set a maximum height for scrolling */
+    overflow-y: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* You can add more styles as needed for your specific design */
+  

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Medicine</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <img src="image/logo1.png" alt="logo" class="imageslogo" />
+        <div class="navbar">
+          <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        <div class="navbar">
+          <ul class="navbarlist">
+            <li class="listitems"><a href="#home">Home</a></li>
+            <li class="listitems"><a href="#about">About</a></li>
+            <li class="listitems"><a href="#medicine">Medication</a></li>
+            <li class="listitems"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="home" id="home">
+    <div class="input">
+      <input type="text" placeholder="search here" class="search" id="searchMedicineInput"   />
+      <!-- id="search" -->
+      <br />
+      <button class="searchbutton" onclick="searchMedicine()">search</button>
+    </div>
+
+    <div id="searchResultsContainer">
+      <!-- Display search results here -->
+  </div>
+    <p class="homep">Welcome Our Customer</p>
+
+    <p class="description">
+      Simply enter the name of the medicine you're interested in, and our search engine will provide you with a 
+      comprehensive overview. You'll find details such as the generic and brand names, 
+      price,  which pharmacy it located and where . Our database is regularly updated to ensure that you have access
+        to the most accurate and up-to-date information.
+    </p>
+  </div>
+
+    <!-- About section -->
+
+    <section id="about" class="about">
+      <h1>About</h1>
+
+      <div class="contanier">
+        <div class="about-img">
+          <img src="image/minis.png" alt="" />
+        </div>
+        <div class="content">
+          <!-- <h1>About</h1> -->
+          <h3>Ministry Of Health</h3>
+          <p>
+           <b> Our Vision </b> <br>
+To see healthy, productive and prosperous Ethiopians.  <br>
+ <b>Our Mission </b> <br>
+“To promote the health and well-being of the society through providing and 
+regulating a comprehensive package of health 
+services of the highest possible quality in an equitable manner.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Medication section -->
+
+    <!-- <div class="medicinetitle">
+      <h1>Medication</h1>
+    </div>
+    <div class="medicine" id="medicine">
+      <div class="medicine-container">
+        <img src="image/moh.png" alt="" />
+        <h4 class="medicinename">Misntry oh</h4>
+        <p>sdfm,nsbv.,naj;fbg.dm cvg.jglqwe.fndm</p>
+      </div>
+      <div class="medicine-container">
+        <img src="image/moh.png" alt="" />
+        <h4 class="medicinename">Misntry oh</h4>
+        <p>sdfm,nsbv.,naj;fbg.dm cvg.jglqwe.fndm</p>
+      </div>
+      <div class="medicine-container">
+        <img src="image/moh.png" alt="" />
+        <h4 class="medicinename">Misntry oh</h4>
+        <p>sdfm,nsbv.,naj;fbg.dm cvg.jglqwe.fndm</p>
+      </div>
+    </div>
+     -->
+    <div class="medicinetitle">
+      <h1>Medication</h1>
+    </div>
+    <div class="medicine-wrapper">
+      <div class="medicine" id="medicine">
+        <div class="medicine-container">
+          <img src="image/abilifymaint.jpg" alt="" />
+          <h4 class="medicinename">Abilify Maintena</h4>
+          <p>Abilify Maintena is also used for <br>
+             the ongoing treatment of people with <br> bipolar I disorder (manic-depressive disorder</p>
+        </div>
+        <div class="medicine-container">
+          <img src="image/newqq.AdUwKytobV8g4h844QhcdAHaEJ" alt="" />
+          <h4 class="medicinename">Abilify Maintena</h4>
+          <p>Abilify Maintena is also used for <br>
+            the ongoing treatment of people with <br> bipolar I disorder (manic-depressive disorder</p>
+        </div>
+        <div class="medicine-container">
+          <img src="image/insulin.jpg" alt="" />
+          <h4 class="medicinename">Insulin</h4>
+          <p>Insulin is a hormone produced by the pancreas that plays a
+             crucial role in regulating blood sugar (glucose) levels in the body.</p>
+        </div>
+        <div class="medicine-container">
+          <img src="image/med2.jpg" alt="" />
+          <h4 class="medicinename">Paracetamol</h4>
+          <p>Paracetamol (acetaminophen) is a painkiller and fever reducer</p>
+        </div>
+        <div class="medicine-container">
+          <img src="image/med3.jpg" alt="" />
+          <h4 class="medicinename">HIV Medicines</h4>
+          <p>HIV medicines are called antiretroviral therapy (ART)1. ART is recommended for everyone with HIV, 
+            and people with HIV should start ART as soon as possible1.</p>
+        </div>
+      </div>
+      
+      
+      <!-- <button class="arrow arrow-left hide-arrow" onclick="scrollLeft()">&#8249;</button>
+    <button class="arrow arrow-right hide-arrow" onclick="scrollRight()">&#8250;</button> -->
+    </div>
+
+
+    <!-- contact section -->
+    <div class="contact" id="contact">
+      <h1>Contact Us</h1>
+      <div class="contactform">
+        <form action="" class="formcontact">
+          <div class="inputBox">
+            Your Name*
+            <input type="text" placeholder="name" class="name" /> Email
+            Address*<input
+              type="email"
+              placeholder="email here"
+              class="email"
+            />
+          </div>
+          <div class="inputBox">
+            Subject*<input type="text" placeholder="subject" />
+          </div>
+          Message*
+          <textarea
+            placeholder="message"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" class="btn" value="send message" />
+        </form>
+      </div>
+    </div>
+    
+
+    <!-- footer section -->
+
+    <div class="footer" id="footer">
+      <div class="footer-content">
+        <div class="about-footer">
+          <p class="aboutus">About Us</p>
+          To promote the health and well-being of the society through providing and 
+          regulating a comprehensive package of health 
+          services of the highest possible quality in an equitable manner.
+        </div>
+
+
+        <div class="social-icons">
+          <p class="followus">Follow Us</p>
+          <div>
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+
+        <div class="footer-contact">
+         <p class="contactus">Contact Us</p> 
+         <P><i class="fas fa-map-marker-alt"></i>AddisAbaba,Ethiopia</P>
+          <p> <i class="fas fa-phone"></i>011 551 7011</p>
+          <p><i class="fas fa-envelope"></i> info@moh.gov.et</p>
+
+        </div>
+      </div>
+      <p>&copy; 2023 Everlink Amu Students All rights reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

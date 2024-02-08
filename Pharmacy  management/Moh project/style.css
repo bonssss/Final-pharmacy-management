@@ -1,0 +1,659 @@
+
+  /* Styles for the navigation bar */
+  body{
+    /* background-image:url(image/ab.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+  header {
+    /* background-color: #f2f2f2; */
+    
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    width: 100%; */
+    position: fixed;
+    top: 0; left: 0; right: 0;
+     /* z-index: 1000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding:  2rem 9%; */
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(57, 162, 191);
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(254, 254, 254);
+    padding: 10px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    
+  }
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    background-color: #333;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+  }
+  
+
+ 
+  .navbar{
+    
+    color: #000000;
+    cursor: pointer;
+    
+    
+  }
+
+  .navbarlist {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 80px;
+   
+    
+  }
+
+  .navbarlist li {
+    margin-left: 10px;
+    justify-content: flex-end;
+  }
+  
+  .navbarlist li:first-child {
+    margin-left: 0;
+  }
+  
+  .navbarlist li a {
+    text-decoration: none;
+    color: #000;
+  }
+  img.imageslogo{
+    width: 60px;
+    height: auto;
+    margin-left: 10px;
+    border: 2px solid rgb(19, 174, 245);
+    border-radius: 10px;
+    
+  }
+
+  .listitems {
+    
+    margin-left: 20px;
+    float: right;
+    
+  }
+
+  .listitems a {
+    text-decoration: none;
+    color: #120f0f;
+    border-radius: 5px;
+    /* background-color: #ccc; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    color: #1e0303;
+    margin: 0 .8rem;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+  }
+
+  .listitems a:hover {
+    background-color:  rgb(19, 174, 245);
+  }
+
+  .back {
+    display: flex;
+    align-items: center;
+  }
+
+  .img {
+    object-fit: cover;
+  } 
+
+  #searchMedicineInput{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid rgb(19, 174, 245);
+
+
+  }
+  .input{
+    display: flex;
+    justify-content: center;
+    margin-top: 350px ;
+  }
+  .input input {
+    text-align: center;
+  }
+  input:focus{
+    outline: none;
+  }
+  p.homep{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .homep{
+    align-content: center;
+    font-size: 50px;
+    color: #000000;
+    
+  }
+button{
+    display: flex;
+    margin-left: 10px;
+    border-radius: 50px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    background-color:  rgb(19, 174, 245);
+    width: 120px;
+}
+.searchbutton{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    font-size: 20px;
+}
+
+.description{
+  
+  color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+
+  
+}
+.about {
+  padding: 20px;
+  margin: 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.about .contanier{
+  display: flex;
+  justify-content: center;
+}
+.about-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.about .about-img img{
+  width: 450px;
+  border-radius: 20px;
+}
+ .content{
+  margin-left: 30px;
+}
+.about .content h1{
+  color: #000000;
+  font-size: 45px;
+}
+.about h1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+.about .content h3{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.about .content p{
+  color: #000000;
+  line-height: 1.8;
+  margin-bottom:70px;
+  font-size: 13px;
+}
+
+/* .medicine{
+  display: flex;
+margin-left: 10px;
+  color: white;justify-content: space-between;
+  
+}
+.medicine-container{
+  justify-content: space-between;
+
+  
+}
+.medicine img{
+  border-radius: 10px;
+  display: inline;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.medicine h4  {
+  margin-left: 40px;
+  margin-bottom: 0;
+}
+  */
+
+  .medicine {
+    display: flex;
+    flex-wrap:nowrap ;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling:touch;
+}
+.medicinetitle h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 60px;
+  
+  font-size: 60px;
+}
+.medicine-wrapper
+{
+  /* position: relative; */
+  align-items: center;
+  overflow-x: auto;
+  display: flex;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.medicine-wrapper::-webkit-scrollbar{
+  display: none;
+}
+
+.medicine-container {
+  flex: 0 0 auto;
+    /* flex-basis: 200px; */
+    text-align: center;
+    margin: 10px;
+    color: #000000;
+}
+
+.medicine-container img {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 300px;
+}
+
+.medicine-container .medicinename {
+    font-weight: bold;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 10px;
+}
+
+.arrow-right {
+  right: 10px;
+} */
+
+.medicine-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.medicine-table th, .medicine-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.medicine-table th {
+  background-color: #f2f2f2;
+}
+
+.medicine-container {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+
+
+.contact h1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 60px;
+  margin-top: 30px;
+  font-size: 60px;
+
+}
+
+.contactform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formcontact {
+  width: 400px;
+  padding: 20px;
+  
+}
+.inputBox .name{
+  margin-bottom: 15px;
+}
+.inputBox {
+  margin-bottom: 15px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid  rgb(19, 174, 245);
+  border-radius: 3px;
+  outline: none;
+}
+
+.btn {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color:  rgb(19, 174, 245);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: rgb(19, 245, 192);
+  
+}
+
+.footer {
+  background-color: rgb(19, 174, 245);
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-footer {
+  flex: 1;
+  margin-left: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.social-icons {
+  flex: 3;
+  
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.social-icon {
+  display: inline-block;
+    margin-right: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #000;
+}
+.social-icon:hover{
+  color: aliceblue;
+}
+.footer-contact {
+  flex: 1;
+  text-align: center;
+  margin-right: 20px;
+}
+.aboutus{
+  font-weight: bold;
+
+}
+.followus{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.contactus{
+  font-weight: bold;
+}
+.footer-contact i{
+  margin-right: 5PX;
+}
+
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons p {
+  margin-bottom: 10px;
+}
+
+.social-icons div {
+  display: inline-block;
+}
+
+.social-icon {
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .social-icon {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-icon {
+      font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .navbar {
+    margin-top: 10px;
+  }
+
+  .input {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .contanier{
+    flex-direction: column;
+    text-align: center;
+}
+.about .about-img img{
+    width: 340px;
+}
+.about .about-img {
+    margin-bottom: 40px;
+}
+
+  .about-img {
+    margin-bottom: 20px;
+  }
+
+  .input {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .description {
+    font-size: 14px;
+  }
+  .imageslogo{
+    align-items: left;
+  }
+
+  .medicine-container {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .about-footer,
+  .social-icons,
+  .footer-contact {
+    margin: 10px 0;
+  }
+
+  .about-footer,
+  .footer-contact {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  /* Styles for screens with a maximum width of 768px */
+  .homep {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+/* @media (max-width: 768px) {
+  
+  .about {
+    flex-direction: column;
+  }
+
+  .about-img,
+  .content {
+    flex: 1 1 auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .content p {
+    font-size: 14px;
+  }
+} */
+
+
+
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+  .navbarlist {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/* Styles for smaller screens */
+@media (max-width: 767px) {
+  .menu-toggle {
+    display: flex;
+    align-items: right;
+  }
+  .navbarlist {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    background-color: none;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    z-index: 1;
+  }
+  .navbarlist.show {
+    display: flex;
+  }
+  .listitems {
+    margin-top: 40px;
+  }
+}
